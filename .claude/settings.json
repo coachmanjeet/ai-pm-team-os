@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Edit(**)",
+      "Write(**)",
+      "WebFetch(*)"
+    ]
+  },
+  "enabledPlugins": {
+    "document-skills@anthropic-agent-skills": true,
+    "frontend-design@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true
+  },
+  "spinnerTipsOverride": {
+    "excludeDefault": false,
+    "tips": [
+      "LNO: Is this a Leverage, Neutral, or Overhead task? (Shreyas Doshi)",
+      "Four Risks: Value, Usability, Feasibility, Viability (Marty Cagan)",
+      "Pre-mortem: Imagine this failed. What went wrong? (Gary Klein)",
+      "The best PRD answers WHY before WHAT.",
+      "Customer problem first, solution second. Always.",
+      "Acceptance criteria: Given/When/Then for every requirement.",
+      "Cross-platform dependency? Check if Integration Review is needed first.",
+      "What are we NOT doing by choosing this? (Opportunity cost)"
+    ]
+  }
+}

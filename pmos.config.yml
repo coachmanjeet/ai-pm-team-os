@@ -1,0 +1,116 @@
+# Agentforce PM OS - Configuration
+# Personalize this file with your details, then Claude will use it across all skills.
+
+pmos_version: "1.0"
+setup_completed: false  # Set to true after personalizing
+
+# --- PM Profile ---
+# Replace placeholders with your info
+pm:
+  name: "[Your Name]"
+  role: "[Your Role, e.g. Product Manager]"
+  company: "Salesforce"
+  product: "Agentforce"
+  product_short: "Agentforce"
+  product_description: "Enterprise agentic AI platform for building, deploying, and managing AI agents at scale"
+
+# --- Product Context ---
+product:
+  domain: "Enterprise Agentic AI"
+  focus_areas:
+    - "Agentforce Builder"
+    - "Evaluation & Testing"
+    - "Session Tracing"
+    - "Multi-Agent Harness"
+    - "Agent Supervision & Observability"
+    - "Auto Agent Improvement & Data-Driven Feedback"
+  platform_description: "Complete, extensible, open agentic platform built on Salesforce Customer 360 and Data Cloud"
+  integrations:
+    - "Salesforce CRM"
+    - "Data Cloud"
+    - "AgentExchange / AppExchange"
+    - "MCP Servers"
+    - "Third-party APIs via Actions"
+  compliance:
+    - "Einstein Trust Layer"
+    - "SOC 2 Type II"
+    - "GDPR"
+
+# --- Release Management ---
+releases:
+  cadence: "monthly"
+  naming_convention: "month-year"
+  current: "April 2026"           # Update each month
+  previous: ["February 2026", "March 2026"]
+  upcoming: "May 2026"
+
+# --- Personas ---
+personas:
+  - name: "Salesforce Admin"
+    short: "Admin"
+    focus: "Build and configure agents using low-code tools"
+  - name: "Business User"
+    short: "Biz User"
+    focus: "Customer service, sales, marketing — uses agents to automate workflows"
+  - name: "Data Engineer"
+    short: "Data Eng"
+    focus: "Grounding, data pipelines, integration with Data Cloud"
+  - name: "Eval Engineer"
+    short: "Eval Eng"
+    focus: "Designs and runs evaluation frameworks for agent quality"
+  - name: "Observability Engineer"
+    short: "Obs Eng"
+    focus: "Monitors agent performance, traces, and system health"
+  - name: "Leadership Team"
+    short: "Leadership"
+    focus: "Tracks ROI, business outcomes, and strategic direction"
+
+# --- Competitors ---
+competitors:
+  - name: "Microsoft"
+    positioning: "Copilot Studio + Azure AI, deep enterprise integration"
+  - name: "Sierra"
+    positioning: "Standalone AI agent OS, omnichannel, founded by Bret Taylor"
+  - name: "Decagon"
+    positioning: "AI-native customer service agents, vertical focus"
+  - name: "ServiceNow"
+    positioning: "Enterprise workflow automation with AI overlay"
+  - name: "Google Vertex"
+    positioning: "AI platform with agentic capabilities, strong in data/ML"
+
+# --- Team ---
+# Add your team members
+team:
+  members: []
+
+# --- Tooling ---
+tools:
+  issue_tracker: "GUS"
+  doc_platform: "Google Workspace"
+  cross_dependency_process: "Cross-Team Dependency Review"
+  other:
+    - "Claude Code"
+    - "Slack"
+
+# --- Domain Terminology ---
+terminology:
+  - term: "Atlas Reasoning Engine"
+    definition: "Agentforce's core AI that understands intent, decides what data/actions are needed, and executes autonomously"
+  - term: "Agent Topics"
+    definition: "Defined areas of expertise that scope what an agent can and cannot handle"
+  - term: "Agent Actions"
+    definition: "Specific tasks an agent can execute — Flows, Apex, APIs, prompts"
+  - term: "Einstein Trust Layer"
+    definition: "Security and governance framework ensuring data privacy, guardrails, and AI safety"
+  - term: "Agentforce Script"
+    definition: "Combines deterministic workflow logic with LLM reasoning for hybrid, predictable agent behavior"
+  - term: "Session Trace"
+    definition: "Detailed log of an agent's reasoning steps, decisions, and actions during an interaction"
+  - term: "Grounding"
+    definition: "Connecting an agent to relevant data sources (Data Cloud, CRM, external) for accurate, contextual responses"
+  - term: "Digital Labor"
+    definition: "AI agents performing autonomous work alongside human workers"
+  - term: "Agent Handoff"
+    definition: "Transfer of a conversation from AI agent to human agent with full context preserved"
+  - term: "AgentExchange"
+    definition: "Marketplace for pre-built agent actions, templates, and partner integrations"
