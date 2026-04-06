@@ -8,6 +8,8 @@ A lean, Claude Code-powered PM workspace for Agentforce product managers at Sale
 
 ## Session Behavior
 
+**On first session:** Check `pmos.config.yml` — if `setup_completed: false`, suggest: "Welcome! Run `/setup` to personalize your workspace (takes ~2 min)."
+
 **On session start:** Check `workflows/active.md` for active workflows. If found, briefly notify: "You have an active [type] workflow for '[topic]' at [stage]. Resume with `/workflow resume` or start fresh." If no active workflow exists, ask the PM: "What would you like to focus on today?"
 
 **On response completion:** Check for:

@@ -1,15 +1,17 @@
 # Agentforce PM OS
 
-A lean, Claude Code-powered PM workspace for Agentforce product managers. 19 skills, 5 review agents, and Agentforce domain context — ready to use.
+A lean, Claude Code-powered PM workspace for Agentforce product managers. 20 skills, 5 review agents, and Agentforce domain context — ready to use.
 
 ## Quick Setup
 
 1. Clone this repo
 2. Open in Claude Code: `claude` from the project root
-3. Edit `pmos.config.yml` with your name, role, and team
-4. Start working: "What would you like to focus on today?"
+3. Run `/setup` — walks you through name, role, team, and shows all available skills (~2 min)
+4. Start working: `/prd`, `/workflow feature`, or ask a question
 
-## Skills (19)
+> Claude auto-detects first run and suggests `/setup`. You can also edit `pmos.config.yml` directly.
+
+## Skills (20)
 
 ### Create
 | Skill | What it does |
@@ -41,6 +43,7 @@ A lean, Claude Code-powered PM workspace for Agentforce product managers. 19 ski
 | `/multi-agent-review` | Parallel review by multiple agents |
 | `/tracker` | Track ideas, bugs, tasks, decisions |
 | `/workflow` | Guided multi-stage workflows |
+| `/setup` | Personalize workspace (first run) |
 
 ## Review Agents (5)
 

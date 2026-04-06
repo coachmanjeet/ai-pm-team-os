@@ -1,0 +1,18 @@
+# Local settings (permissions, API keys)
+.claude/settings.local.json
+
+# Agent memory (personal to each PM)
+.claude/agent-memory/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.cursor/
+.vscode/
+
+# Logs
+*.log
+tracker/config-changes.log
+tracker/team-activity.log
