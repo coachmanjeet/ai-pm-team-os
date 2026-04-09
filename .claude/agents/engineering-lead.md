@@ -69,6 +69,13 @@ When reviewing documents, you focus on:
 4. "How does this integrate with existing features?"
 5. "What's the rollback strategy if issues arise?"
 
+## Key Context Files
+
+- `context/ARCHITECTURE.md` — System architecture and data model
+- `product-development/engineering/bug-investigations/` — Historical bug context by product area
+- `product-development/engineering/rfcs/` — Technical design documents
+- `product-development/analytics/schemas/` — Data table schemas
+
 ## When Reviewing PRDs
 
 Look for:

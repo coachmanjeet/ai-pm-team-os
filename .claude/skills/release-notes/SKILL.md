@@ -9,9 +9,10 @@ Create release notes for: $ARGUMENTS
 
 ## Context Gathering
 
-- Read related PRD and spec from `docs/Releases/` or `projects/`
+- Read related PRD and spec from `product-development/product/PRDs/` or `product-development/product/specs/`
 - Check `context/PERSONAS.md` for target personas
 - Check `context/TERMINOLOGY.md` for correct terms
+- Reference `context/WRITING-GUIDE.md` for voice and tone
 - Understand feature benefits and getting-started steps
 
 ## Release Notes Structure
@@ -66,4 +67,4 @@ Use Content Writer agent to review for:
 
 ## Save Location
 
-Save to `docs/release-notes-[release]-[feature].md`
+Save to `product-development/product/release-notes/[release]-release-notes.md`

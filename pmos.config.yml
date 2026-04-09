@@ -79,9 +79,22 @@ competitors:
     positioning: "AI platform with agentic capabilities, strong in data/ML"
 
 # --- Team ---
-# Add your team members
+# Add your team members (include Slack IDs for MCP messaging)
 team:
-  members: []
+  members:
+    # Example:
+    # - name: "Alex Chen"
+    #   role: "Engineering Lead"
+    #   slack_id: "@alex.chen"
+    #   email: "alex.chen@salesforce.com"
+    #   area: "Agentforce Builder"
+    []
+  channels:
+    # team: "#agentforce-pm-team"
+    # engineering: "#agentforce-eng"
+    # releases: "#agentforce-releases"
+    # incidents: "#agentforce-incidents"
+    # customer_feedback: "#agentforce-customer-voice"
 
 # --- Tooling ---
 tools:

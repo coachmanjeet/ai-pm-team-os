@@ -16,8 +16,10 @@ Weave insights naturally into the plan.
 
 ## Context Gathering
 
+- Check `plans/` for existing plans on related topics (reuse before rebuilding)
 - Check `context/PRODUCT.md`, `context/PERSONAS.md`
-- Check `docs/Releases/` for related features
+- Check `product-development/product/PRDs/` for related features
+- Check `product-development/feature-index.yaml` for related artifacts
 - Check `research/` for existing research
 - Ask: Feature, problem solved, target users, release, dependencies
 
@@ -55,4 +57,4 @@ See [references/templates.md](references/templates.md) for the full template.
 
 ## Save Location
 
-Save to `projects/[project-name]/plan.md`
+Save to `plans/[project-name]-plan.md`

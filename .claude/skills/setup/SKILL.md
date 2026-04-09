@@ -23,16 +23,18 @@ Personalize this workspace for a new Agentforce PM.
 ### Step 2: Collect Profile (ask ONE question at a time)
 
 1. "What's your name and role?" (e.g., "Sarah Kim, Product Manager")
-2. "Who are your key team members? List names." (e.g., "Alex, Priya, Marcus")
+2. "Who are your key team members? For each, give name, role, and Slack handle." (e.g., "Alex Chen, Engineering Lead, @alex.chen")
 3. "What are your focus areas within Agentforce? The defaults are Builder, Evaluation & Testing, Session Tracing, Multi-Agent Harness, Supervision & Observability, Auto Improvement. Want to keep these or customize?"
 4. "What's the current release you're working on?" (default: current value in config)
+5. "What are your key team Slack channels?" (e.g., "#agentforce-pm-team, #agentforce-eng")
 
 ### Step 3: Update Config
 Write collected values to `pmos.config.yml`:
 - `pm.name`, `pm.role` from answer 1
-- `team.members` from answer 2
+- `team.members` from answer 2 (structured: name, role, slack_id, email, area)
 - `product.focus_areas` from answer 3 (keep defaults if PM said "keep")
 - `releases.current` from answer 4
+- `team.channels` from answer 5
 - Set `setup_completed: true`
 
 ### Step 4: Show What's Available
@@ -66,7 +68,11 @@ ANALYZE & REVIEW
 TRACK & FLOW
   /tracker [action]           — Track ideas, bugs, tasks, decisions
   /workflow feature [topic]   — Guided: Research → PRD → Review → QA → Stories
-  /workflow release [number]  — Guided: Status → Notes → Launch → Demo
+  /workflow release [number]  — Guided: Status → Notes → Repo Update → Launch → Demo
+
+TEAM COLLABORATION
+  /customer-call [details]    — Structured customer call summary
+  /share-update               — Create PR + notify team via Slack
 
 REVIEW AGENTS (used automatically or invoke directly)
   engineering-lead     — Technical feasibility
@@ -82,6 +88,7 @@ Based on context, suggest ONE of:
 - "Want to start with `/workflow feature [topic]` to build out a feature end-to-end?"
 - "Want to run `/prd [feature]` to draft a PRD?"
 - "Want to explore what's in `context/` to see the Agentforce domain knowledge?"
+- "New to this repo? Check `team/onboarding.md` for a walkthrough of how the team uses PM OS."
 
 ## Reset Flow
 

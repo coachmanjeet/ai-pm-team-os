@@ -9,6 +9,8 @@ Document a bug for: $ARGUMENTS
 
 ## Context Gathering
 
+Before asking questions, check `product-development/engineering/bug-investigations/` for historical bugs in the same product area. Surface relevant past bugs to inform the investigation.
+
 Ask (one at a time):
 1. What happened?
 2. What did you expect?

@@ -12,7 +12,7 @@ Create a demo script for: $ARGUMENTS
 - Read `context/PRODUCT.md` for feature context
 - Read `context/PERSONAS.md` for audience understanding
 - Check `demos/` for existing demo scripts
-- Review relevant PRDs in `docs/Releases/`
+- Review relevant PRDs in `product-development/product/PRDs/`
 - Ask: Feature, audience, duration, demo type (Release/Partner/Customer/Conference)
 
 ## Demo Script Structure

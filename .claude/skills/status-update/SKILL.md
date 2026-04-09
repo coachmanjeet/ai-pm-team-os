@@ -9,9 +9,10 @@ Create a status update for: $ARGUMENTS
 
 ## Context Gathering
 
-- Review relevant docs in `docs/Releases/` folder
+- Review relevant docs in `product-development/product/PRDs/`
 - Check `tracker/tasks.md` for task status
 - Reference the PRD if available
+- Reference `context/WRITING-GUIDE.md` for voice and tone
 
 ## Process
 

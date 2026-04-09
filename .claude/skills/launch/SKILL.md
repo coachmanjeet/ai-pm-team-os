@@ -11,11 +11,25 @@ Create launch materials for: $ARGUMENTS
 
 Apply April Dunford's competitive context framing, Arielle Jackson's launch sequencing principles, and Andy Raskin's strategic narrative structure.
 
+## Repo Update Checklist (run BEFORE generating launch materials)
+
+Verify and flag if outdated:
+- [ ] `context/CAPABILITIES.md` reflects the feature and its status (GA/Beta)
+- [ ] `context/PRODUCT.md` updated if feature changes product overview or editions
+- [ ] `context/TERMINOLOGY.md` includes any new terms
+- [ ] `context/COMPETITIVE.md` updated if competitive positioning changed
+- [ ] `tracker/decisions.md` captures key decisions from development
+- [ ] `product-development/product/customers/` has relevant customer feedback stored
+- [ ] `product-development/analytics/` has metric definitions and dashboards documented
+
+If any item is outdated, flag to the PM and offer to update before proceeding.
+
 ## Context Gathering
 
-- Review PRD in `docs/Releases/[release]/`
+- Review PRD in `product-development/product/PRDs/`
 - Check `context/PRODUCT.md` for positioning
 - Check `context/PERSONAS.md` for audience
+- Reference `context/WRITING-GUIDE.md` for voice and tone
 - Ask: Feature name, release, GA date, target audience, key capabilities, how to enable
 
 ## Available Formats
@@ -47,4 +61,4 @@ See [references/templates.md](references/templates.md) for full templates for ea
 
 ## Save Location
 
-Save to `presentations/launches/[release]-[feature]-launch.md`
+Save to `product-development/product/launches/[release]-[feature]-launch.md`

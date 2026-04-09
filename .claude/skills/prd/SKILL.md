@@ -10,8 +10,11 @@ Create a Product Requirements Document for: $ARGUMENTS
 ## Context Gathering
 
 Before writing, silently read and apply:
+- Check `plans/` for existing plans on this feature (reuse before rebuilding)
 - `context/PRODUCT.md`, `context/PERSONAS.md`, `context/TERMINOLOGY.md`
-- Check `docs/Releases/` for related feature docs
+- Check `product-development/product/PRDs/` for related feature docs
+- Check `product-development/feature-index.yaml` for related artifacts
+- Check `product-development/product/customers/` for relevant customer feedback and call data
 - Check `memory/` files for relevant past decisions
 
 ## PRD Structure
@@ -72,4 +75,4 @@ After creating the draft, invoke agents in parallel:
 
 ## Output
 
-Save to `projects/[feature-name]/prd.md`. Present summary of key decisions, open questions, and next steps.
+Save to `product-development/product/PRDs/[product-area]/[feature-name]-prd.md` and update `product-development/feature-index.yaml`. Present summary of key decisions, open questions, and next steps.

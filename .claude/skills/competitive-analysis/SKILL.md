@@ -11,6 +11,7 @@ Conduct competitive analysis for: $ARGUMENTS
 ## Context Gathering
 
 - Read `context/PRODUCT.md` for Agentforce positioning
+- Check `product-development/product/competitive-research/` for existing competitor intel
 - Check `research/` for existing competitive research
 - Check `memory/decisions.md` for past competitive decisions
 

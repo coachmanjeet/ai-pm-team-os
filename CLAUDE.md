@@ -2,7 +2,7 @@
 
 ## About This System
 
-A lean, Claude Code-powered PM workspace for Agentforce product managers at Salesforce. This is NOT a code development project; it's a document-centric PM productivity system with 19 skills, 5 review agents, and Agentforce domain context pre-loaded.
+A shared, Claude Code-powered Team OS for Agentforce product teams at Salesforce. This is NOT a code development project; it's a document-centric team productivity system with 22 skills, 5 review agents, and Agentforce domain context pre-loaded. Everyone on the team contributes: PMs, engineers, designers, data scientists, strategy partners, and operations.
 
 ---
 
@@ -44,16 +44,25 @@ Context is the most important resource. Proactively use subagents (Task tool) to
 
 **Before answering product questions:**
 
-1. Check `context/TERMINOLOGY.md` for Agentforce and enterprise agentic AI terminology
-2. Reference `context/ARCHITECTURE.md` for technical context
-3. Use `docs/INDEX.md` to find feature documentation by release
+1. Check `product-development/feature-index.yaml` to find all artifacts for a specific feature
+2. Check `context/TERMINOLOGY.md` for Agentforce and enterprise agentic AI terminology
+3. Reference `context/ARCHITECTURE.md` for technical context
 4. Check `memory/pending.md` for unprocessed session learnings
 
 **When generating any PM artifact:** Read relevant `context/` files, check `templates/` for matching formats, then generate.
 
+**Each folder has a `CLAUDE.md`** with its doc index — read that first to navigate efficiently without exploring.
+
 **Document locations:**
 
-- Feature docs: `docs/Releases/[release]/[feature]/`
+- Feature index: `product-development/feature-index.yaml` (look here first for any feature)
+- Product work: `product-development/product/` (PRDs, specs, user stories, customers, strategy, launches)
+- Engineering: `product-development/engineering/` (plans, RFCs, bug investigations)
+- Analytics: `product-development/analytics/` (metrics, queries, schemas, dashboards)
+- Design: `product-development/design/` (stub — artifacts in Figma)
+- Domain knowledge: `context/` (terminology, architecture, personas, capabilities)
+- Plans (reusable): `plans/`
+- Team: `team/` (onboarding guides, norms, retros)
 - Templates: `templates/`
 - Decisions: `tracker/decisions.md`
 - Agent system: `.claude/AGENT_GUIDE.md`
@@ -77,6 +86,8 @@ Configure your profile in `pmos.config.yml`. This includes your name, role, team
 - Get multi-perspective feedback via agents before finalizing PRDs
 - Track decisions in `tracker/decisions.md`
 - Cite sources for external claims
+- Reference `context/WRITING-GUIDE.md` when generating customer-facing or stakeholder-facing content
+- Update the repo before launching a feature (see `.claude/rules/launch-readiness.md`)
 
 ### NEVER
 
@@ -84,8 +95,9 @@ Configure your profile in `pmos.config.yml`. This includes your name, role, team
 - Skip acceptance criteria in user stories
 - Ignore cross-platform impacts
 - Commit to timelines without engineering input
+- Launch a feature without updating repo context files (capabilities, terminology, competitive)
 
-Path-specific rules in `.claude/rules/` auto-load when working in `docs/`, `memory/`, or `templates/` directories.
+Path-specific rules in `.claude/rules/` auto-load when working in `product-development/`, `memory/`, or `templates/` directories.
 
 ---
 

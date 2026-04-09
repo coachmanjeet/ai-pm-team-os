@@ -22,8 +22,9 @@ Weave insights naturally into the memo.
 ## Context Gathering
 
 - Check `context/PRODUCT.md` for positioning
-- Check existing strategy docs in `projects/`
-- Check `docs/` for relevant feature documentation
+- Check existing strategy docs in `product-development/product/strategy/`
+- Check `product-development/product/PRDs/` for relevant feature documentation
+- Reference `context/WRITING-GUIDE.md` for voice and tone
 - Ask: Strategic topic, current situation, recommendation, alternatives, risks, resources, success metrics
 
 ## Memo Structure
@@ -84,4 +85,4 @@ Weave insights naturally into the memo.
 
 ## Save Location
 
-Save to `projects/[project-name]/strategy-[topic].md`
+Save to `product-development/product/strategy/[topic]-strategy.md`

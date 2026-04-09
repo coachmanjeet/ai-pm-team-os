@@ -1,0 +1,25 @@
+# Agentforce — Data Catalog
+# Registry of data tables/objects backing analytics metrics.
+# Each entry: description, owner, refresh cadence, upstream source.
+
+# tables:
+#   session_events:
+#     description: "Raw session event log from Atlas Reasoning Engine"
+#     owner: "Data Engineering"
+#     refresh: "Real-time streaming"
+#     upstream: "Agent Runtime → Data Cloud"
+#     schema: analytics/schemas/observability/session_events.md
+#
+#   eval_results:
+#     description: "Evaluation run results with scores and test cases"
+#     owner: "Data Engineering"
+#     refresh: "On eval completion"
+#     upstream: "Eval Framework → Data Cloud"
+#     schema: analytics/schemas/eval/eval_results.md
+#
+#   agent_deployments:
+#     description: "Agent deployment history and version metadata"
+#     owner: "Data Engineering"
+#     refresh: "On deploy"
+#     upstream: "Agent Builder → Metadata API"
+#     schema: analytics/schemas/builder/agent_deployments.md

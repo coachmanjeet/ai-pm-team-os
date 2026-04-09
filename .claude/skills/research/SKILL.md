@@ -12,6 +12,7 @@ Conduct research on: $ARGUMENTS
 
 - Check `memory/` files for relevant past learnings
 - Check `research/` for existing research on this topic
+- Check `product-development/product/customers/` for relevant customer call data and feedback
 - Reference `context/TERMINOLOGY.md` for domain terms
 
 ## Process

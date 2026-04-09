@@ -12,6 +12,8 @@ Conduct technical review for: $ARGUMENTS
 ## Context Gathering
 
 - Check `context/ARCHITECTURE.md` and `context/TERMINOLOGY.md`
+- Check `product-development/engineering/rfcs/` for related technical designs
+- Check `product-development/engineering/bug-investigations/` for historical issues in this area
 - Review relevant PRDs in `docs/Releases/`
 - Ask: What to review (PRD/design/data model/architecture), product area, specific concerns
 

@@ -1,0 +1,49 @@
+# Agentforce — Feature Index
+# Master lookup: every feature mapped to all related artifacts across the repo.
+# Organized by product area → feature → artifact paths (relative to product-development/).
+#
+# When looking up a specific feature, search this file first.
+
+builder:
+  # agent-builder-wizard:
+  #   prd: product/PRDs/builder/agent-builder-wizard-prd.md
+  #   spec: product/specs/builder/agent-builder-wizard-spec.md
+  #   user-stories: product/user-stories/builder/agent-builder-wizard-stories.md
+  #   eng-rfc: engineering/rfcs/builder/agent-builder-wizard-rfc.md
+  #   eng-plan: engineering/plans/builder/agent-builder-wizard.md
+  #   metrics: analytics/metrics/builder/agent-builder-metrics.md
+  #   queries:
+  #     - analytics/queries/builder/wizard-completion-rate.sql
+  #   dashboards: analytics/dashboards/builder/agent-builder-dashboards.md
+  #   gus-tickets:
+  #     - W-XXXXX
+  #   figma: https://figma.com/file/...
+  #   bug-investigations:
+  #     - engineering/bug-investigations/builder/...
+
+eval:
+  # eval-score-v2:
+  #   prd: product/PRDs/eval/eval-score-v2-prd.md
+  #   spec: product/specs/eval/eval-score-v2-spec.md
+  #   eng-rfc: engineering/rfcs/eval/eval-score-v2-rfc.md
+  #   ...
+
+observability:
+  # session-trace-viewer-v2:
+  #   prd: product/PRDs/observability/session-trace-viewer-v2-prd.md
+  #   ...
+
+grid:
+  # multi-agent-orchestration:
+  #   prd: product/PRDs/grid/multi-agent-orchestration-prd.md
+  #   ...
+
+trust:
+  # guardrail-configuration:
+  #   prd: product/PRDs/trust/guardrail-configuration-prd.md
+  #   ...
+
+improvement:
+  # auto-instruction-suggestions:
+  #   prd: product/PRDs/improvement/auto-instruction-suggestions-prd.md
+  #   ...
