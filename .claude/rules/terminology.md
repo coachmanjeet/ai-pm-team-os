@@ -1,6 +1,6 @@
 ---
 paths:
-  - "docs/**"
+  - "product-development/**"
   - "templates/**"
 ---
 

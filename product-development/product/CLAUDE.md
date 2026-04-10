@@ -29,15 +29,6 @@ product/
 | Strategy & Roadmaps | `strategy/CLAUDE.md` |
 | Domain Knowledge | `../../context/` (terminology, architecture, personas, capabilities) |
 
-## Product Areas
+## Organization
 
-All subfolders organize content by these Agentforce product areas:
-
-| Area | Subfolder | Scope |
-|------|-----------|-------|
-| Builder | `builder/` | Agent Builder, Topics, Actions, Instructions |
-| Eval & Testing | `eval/` | Evaluation, Test Cases, Eval Scores |
-| Observability | `observability/` | Session Tracing, Dashboards, Anomaly Detection |
-| Multi-Agent Grid | `grid/` | Supervisor, Worker Agents, Orchestration |
-| Trust | `trust/` | Einstein Trust Layer, Guardrails |
-| Auto Improvement | `improvement/` | Feedback Loop, Auto Suggestions |
+Organize content by product area. Skills create subdirectories on demand — no need to pre-create them.

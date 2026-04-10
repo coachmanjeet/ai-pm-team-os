@@ -14,7 +14,7 @@ Conduct technical review for: $ARGUMENTS
 - Check `context/ARCHITECTURE.md` and `context/TERMINOLOGY.md`
 - Check `product-development/engineering/rfcs/` for related technical designs
 - Check `product-development/engineering/bug-investigations/` for historical issues in this area
-- Review relevant PRDs in `docs/Releases/`
+- Review relevant PRDs in `product-development/product/PRDs/`
 - Ask: What to review (PRD/design/data model/architecture), product area, specific concerns
 
 ## Review Agents
@@ -58,4 +58,4 @@ See [references/checklist.md](references/checklist.md) for the full review check
 
 ## Save Location
 
-Save to `projects/[project-name]/reviews/[type]-review-[date].md`
+Save to `product-development/engineering/rfcs/[feature-name]/[type]-review-[date].md`

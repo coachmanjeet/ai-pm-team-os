@@ -10,7 +10,7 @@ Identify edge cases for: $ARGUMENTS
 ## Context Gathering
 
 - Ask: Feature/flow, main user actions, data involved, integrations
-- Read relevant PRD/spec from `projects/` or `docs/Releases/`
+- Read relevant PRD/spec from `product-development/product/PRDs/` or `product-development/product/specs/`
 
 ## Edge Case Categories
 
@@ -69,4 +69,4 @@ Total: X | Critical: X | High: X | Medium: X | Low: X
 
 ## Save Location
 
-Save to `projects/[project-name]/edge-cases-[feature].md`
+Save to `product-development/product/PRDs/[feature-name]/edge-cases.md`

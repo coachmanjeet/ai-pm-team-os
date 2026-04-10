@@ -42,7 +42,7 @@ Write collected values to `pmos.config.yml`:
 Present this cheatsheet:
 
 ```
-Welcome to Agentforce PM OS!
+Welcome to Agentforce PM Team OS!
 
 CREATE ARTIFACTS
   /prd [feature]              — Product Requirements Document
@@ -85,10 +85,10 @@ REVIEW AGENTS (used automatically or invoke directly)
 ### Step 5: Suggest First Action
 
 Based on context, suggest ONE of:
-- "Want to start with `/workflow feature [topic]` to build out a feature end-to-end?"
-- "Want to run `/prd [feature]` to draft a PRD?"
-- "Want to explore what's in `context/` to see the Agentforce domain knowledge?"
-- "New to this repo? Check `team/onboarding.md` for a walkthrough of how the team uses PM OS."
+- "Want to start with `/workflow feature [topic]` to build out a feature end-to-end? (Research → PRD → Agent Review → QA → User Stories)"
+- "Want to run `/prd [feature]` to draft a PRD with automatic agent review?"
+- "Want to see what the system can do? Try `/multi-agent-review` on any doc for instant feedback from 5 perspectives."
+- "New to this repo? Check `team/onboarding-guides/onboarding-general.md` for a walkthrough."
 
 ## Reset Flow
 

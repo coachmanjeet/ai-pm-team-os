@@ -1,7 +1,6 @@
 ---
 paths:
-  - "docs/**"
-  - "projects/**"
+  - "product-development/**"
 ---
 
 # Cross-Platform Dependencies

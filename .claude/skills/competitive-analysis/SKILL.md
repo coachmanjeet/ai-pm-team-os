@@ -12,7 +12,7 @@ Conduct competitive analysis for: $ARGUMENTS
 
 - Read `context/PRODUCT.md` for Agentforce positioning
 - Check `product-development/product/competitive-research/` for existing competitor intel
-- Check `research/` for existing competitive research
+- Check `product-development/product/competitive-research/` for existing competitive research
 - Check `memory/decisions.md` for past competitive decisions
 
 ## Process
@@ -67,4 +67,4 @@ See [references/methodology.md](references/methodology.md) for deeper frameworks
 
 ## Output
 
-Save to `research/competitive-[topic]-[date].md`. Include executive summary, feature matrix, competitor profiles, and strategic recommendations.
+Save to `product-development/product/competitive-research/[topic]-[date].md`. Include executive summary, feature matrix, competitor profiles, and strategic recommendations.

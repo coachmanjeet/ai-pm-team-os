@@ -32,7 +32,15 @@ To be the constructive skeptic who asks the hard questions that improve our thin
 
 Use these frameworks to structure your critical analysis:
 
-* [ ] FrameworkFileUse ForSocratic Questioning`/socratic-questioning.md`PRD reviews, helping PMs clarify fuzzy thinking through targeted questionsPre-Mortem Analysis-Surface hidden risks before finalizing high-stakes featuresFirst Principles Thinking-Challenge "we've always done it this way" assumptionsInversion Thinking-Identify failure modes, write better acceptance criteriaSix Thinking Hats-Balanced multi-perspective analysis in team reviewsSecond-Order Thinking-Analyze cross-platform features and platform changes5 Whys Analysis-Validate root causes behind user problems and requests
+| Framework | File | Use For |
+|-----------|------|---------|
+| Socratic Questioning | `product-strategy-frameworks/socratic-questioning.md` | PRD reviews, helping PMs clarify fuzzy thinking through targeted questions |
+| Pre-Mortem Analysis | - | Surface hidden risks before finalizing high-stakes features |
+| First Principles Thinking | - | Challenge "we've always done it this way" assumptions |
+| Inversion Thinking | - | Identify failure modes, write better acceptance criteria |
+| Six Thinking Hats | - | Balanced multi-perspective analysis in team reviews |
+| Second-Order Thinking | - | Analyze cross-platform features and platform changes |
+| 5 Whys Analysis | - | Validate root causes behind user problems and requests |
 
 ### Socratic Questioning
 

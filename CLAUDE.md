@@ -2,7 +2,7 @@
 
 ## About This System
 
-A shared, Claude Code-powered Team OS for Agentforce product teams at Salesforce. This is NOT a code development project; it's a document-centric team productivity system with 22 skills, 5 review agents, and Agentforce domain context pre-loaded. Everyone on the team contributes: PMs, engineers, designers, data scientists, strategy partners, and operations.
+A shared, Claude Code-powered Team OS for Agentforce product teams at Salesforce. Skills do the work, agents review it, context makes it smart. 20+ skills, 5 review agents, and Agentforce domain context pre-loaded. Everyone on the team contributes: PMs, engineers, designers, data scientists, strategy partners, and operations.
 
 ---
 
@@ -40,6 +40,19 @@ Context is the most important resource. Proactively use subagents (Task tool) to
 
 ---
 
+## How It Works
+
+**Skills** are the primary interface — type a command, get a polished artifact:
+- `/workflow feature [topic]` — full feature pipeline: Research → PRD → Review → QA → User Stories
+- `/workflow release [number]` — release pipeline: Status → Release Notes → Launch → Demo Script
+- `/prd`, `/spec`, `/user-story`, `/roadmap`, `/strategy`, `/launch` — individual artifacts on demand
+- `/multi-agent-review [doc]` — parallel review by 5 specialized agents
+
+**Agents** review your work automatically during workflows, or on demand:
+- Engineering Lead, Product Strategist, UX Designer, QA Engineer, Critical Thinker
+
+**Context** powers everything — skills auto-read from `context/` so output is Agentforce-aware from the start.
+
 ## Quick Start
 
 **Before answering product questions:**
@@ -53,7 +66,7 @@ Context is the most important resource. Proactively use subagents (Task tool) to
 
 **Each folder has a `CLAUDE.md`** with its doc index — read that first to navigate efficiently without exploring.
 
-**Document locations:**
+**File locations (secondary reference):**
 
 - Feature index: `product-development/feature-index.yaml` (look here first for any feature)
 - Product work: `product-development/product/` (PRDs, specs, user stories, customers, strategy, launches)
@@ -61,7 +74,7 @@ Context is the most important resource. Proactively use subagents (Task tool) to
 - Analytics: `product-development/analytics/` (metrics, queries, schemas, dashboards)
 - Design: `product-development/design/` (stub — artifacts in Figma)
 - Domain knowledge: `context/` (terminology, architecture, personas, capabilities)
-- Plans (reusable): `plans/`
+- Strategy frameworks: `product-strategy-frameworks/` (Rumelt, DHM, SWOT, Socratic)
 - Team: `team/` (onboarding guides, norms, retros)
 - Templates: `templates/`
 - Decisions: `tracker/decisions.md`

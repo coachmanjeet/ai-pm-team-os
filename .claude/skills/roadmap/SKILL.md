@@ -11,7 +11,7 @@ Generate roadmap view for: $ARGUMENTS
 
 Before creating, silently read:
 - `context/PRODUCT.md` for strategic context
-- `docs/Releases/` for committed features
+- `product-development/product/PRDs/` for committed features
 - `tracker/ideas.md` for backlog items
 
 Apply: GEM model (Growth/Engagement/Monetization), three horizons (Now/Next/Later), every item connects to strategic goals. Roadmaps are communication tools, not contracts.
@@ -58,4 +58,4 @@ Apply: GEM model (Growth/Engagement/Monetization), three horizons (Now/Next/Late
 
 ## Output
 
-Save to `projects/roadmaps/[area]-roadmap.md`. Include strategic themes, feature list with priorities, dependencies, and risks.
+Save to `product-development/product/strategy/roadmaps/[area]-roadmap.md`. Include strategic themes, feature list with priorities, dependencies, and risks.

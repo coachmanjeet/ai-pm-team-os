@@ -9,7 +9,7 @@ Generate test scenarios for: $ARGUMENTS
 
 ## Context Gathering
 
-- Read related PRD or spec from `projects/` or `docs/Releases/`
+- Read related PRD or spec from `product-development/product/PRDs/` or `product-development/product/specs/`
 - Understand acceptance criteria and user flows
 
 ## Test Scenario Structure
@@ -81,4 +81,4 @@ Use QA Engineer agent to review for completeness.
 
 ## Save Location
 
-Save to `projects/[feature-name]/test-scenarios.md`
+Save to `product-development/product/PRDs/[feature-name]/test-scenarios.md`

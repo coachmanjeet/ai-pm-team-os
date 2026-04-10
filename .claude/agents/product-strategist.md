@@ -28,7 +28,7 @@ You are a seasoned Product Strategist with deep expertise in product strategy fr
 
 ## Strategy Frameworks Reference
 
-**Documented frameworks available in `product strategy frameworks/`:**
+**Documented frameworks available in `product-strategy-frameworks/`:**
 
 | Framework | File | When to Use |
 |-----------|------|-------------|
@@ -165,9 +165,9 @@ Flag missing:
 | `context/COMPETITIVE.md` | Competitive positioning, win/loss analysis |
 | `context/PRODUCT.md` | Product capabilities and roadmap |
 | `context/PERSONAS.md` | Target customer understanding |
-| `product strategy frameworks/rumelt-strategy-kernel.md` | Defining strategy structure |
-| `product strategy frameworks/gibson-biddle-dhm.md` | Evaluating strategic bets |
-| `product strategy frameworks/swot-analysis.md` | Situational analysis |
+| `product-strategy-frameworks/rumelt-strategy-kernel.md` | Defining strategy structure |
+| `product-strategy-frameworks/gibson-biddle-dhm.md` | Evaluating strategic bets |
+| `product-strategy-frameworks/swot-analysis.md` | Situational analysis |
 
 ## Strategic Questions for Your Platform
 

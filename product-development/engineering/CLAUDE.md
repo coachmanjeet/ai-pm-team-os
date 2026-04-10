@@ -12,18 +12,9 @@ Engineering plans, RFCs, and bug investigations for Agentforce. All organized by
 | `rfcs/` | Technical design proposals and architecture decisions |
 | `bug-investigations/` | Investigation write-ups for production bugs |
 
-## Product Areas
+## Organization
 
-All three folders share the same product-area structure:
-
-| Product Area | Subfolder | Scope |
-|-------------|-----------|-------|
-| Builder | `builder/` | Agent Builder, Topics, Actions, Instructions |
-| Eval & Testing | `eval/` | Evaluation, Test Cases, Eval Scores |
-| Observability | `observability/` | Session Tracing, Dashboards, Anomaly Detection |
-| Multi-Agent Grid | `grid/` | Supervisor, Worker Agents, Orchestration |
-| Trust | `trust/` | Einstein Trust Layer, Guardrails |
-| Auto Improvement | `improvement/` | Feedback Loop, Auto Suggestions |
+Organize by product area. Skills create subdirectories on demand — no need to pre-create them.
 
 ## Naming Conventions
 

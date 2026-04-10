@@ -11,8 +11,8 @@ Generate user stories for: $ARGUMENTS
 
 - Check `context/PERSONAS.md` for persona details
 - Check `context/PRODUCT.md` for product context
-- Review relevant PRDs in `docs/Releases/`
-- Check existing specs in `projects/`
+- Review relevant PRDs in `product-development/product/PRDs/`
+- Check existing specs in `product-development/product/specs/`
 
 ## Personas Reference
 
@@ -93,5 +93,5 @@ Then detail each story using the format above.
 
 ## Save Location
 
-- Single stories: `projects/[project-name]/stories/[story-id]-[title].md`
-- Epic stories: `projects/[project-name]/stories/[epic-name]-stories.md`
+- Single stories: `product-development/product/user-stories/[story-id]-[title].md`
+- Epic stories: `product-development/product/user-stories/[epic-name]-stories.md`

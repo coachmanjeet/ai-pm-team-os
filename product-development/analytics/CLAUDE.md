@@ -17,18 +17,9 @@ Data analysis resources organized by product area for efficient context loading.
 | `playbooks/` | Reusable analysis playbooks (e.g., funnel-analysis.md) |
 | `data-catalog.yaml` | Data table registry — descriptions, owners, refresh cadence |
 
-## Product Areas
+## Organization
 
-All folders share the same product-area structure:
-
-| Product Area | Subfolder |
-|-------------|-----------|
-| Builder | `builder/` |
-| Eval & Testing | `eval/` |
-| Observability | `observability/` |
-| Multi-Agent Grid | `grid/` |
-| Trust | `trust/` |
-| Auto Improvement | `improvement/` |
+Organize by product area. Skills create subdirectories on demand — no need to pre-create them.
 
 ## Context Management
 

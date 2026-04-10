@@ -1,6 +1,6 @@
 ---
 paths:
-  - "docs/Releases/**"
+  - "product-development/**"
 ---
 
 # Agentforce Releases

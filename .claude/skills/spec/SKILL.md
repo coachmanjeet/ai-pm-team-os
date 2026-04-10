@@ -9,7 +9,7 @@ Create a specification for: $ARGUMENTS
 
 ## Context Gathering
 
-- Read related PRD from `projects/` or `docs/Releases/`
+- Read related PRD from `product-development/product/PRDs/`
 - Read `context/PRODUCT.md` and `context/ARCHITECTURE.md`
 - Check `context/TERMINOLOGY.md` for correct object/field names
 - Understand existing data model and cross-platform dependencies
@@ -49,7 +49,7 @@ Use Engineering Lead and Solution Architect agents to review for:
 
 ### 4. Save
 
-Save to `projects/[feature-name]/spec.md`
+Save to `product-development/product/specs/[feature-name]-spec.md`
 
 ## Output
 

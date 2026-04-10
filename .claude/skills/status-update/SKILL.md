@@ -60,4 +60,4 @@ Rule: Move to Yellow at the FIRST sign of risk, not when you're sure things are 
 
 ## Output
 
-Save to `projects/[project-name]/status/[date]-status.md`
+Save to `product-development/product/PRDs/[feature-name]/status/[date]-status.md`

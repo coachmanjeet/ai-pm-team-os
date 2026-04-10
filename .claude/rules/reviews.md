@@ -1,6 +1,6 @@
 ---
 paths:
-  - "projects/**"
+  - "product-development/**"
 ---
 
 # Reviewing Cross-Team Proposals

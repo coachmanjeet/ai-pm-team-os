@@ -1,15 +1,29 @@
-# Agentforce PM OS
+# Agentforce PM Team OS
 
-A lean, Claude Code-powered PM workspace for Agentforce product managers. 20 skills, 5 review agents, and Agentforce domain context — ready to use.
+A Claude Code-powered operating system for Agentforce product teams. Skills do the work, agents review it, context makes it smart.
+
+## Philosophy
+
+This is **not** a document management system. It's a workflow engine:
+
+1. **You say what you need** — `/prd session-trace-comparison` or `/workflow feature [topic]`
+2. **Skills do the heavy lifting** — they read context, apply templates, and generate polished artifacts
+3. **Agents review your work** — 5 specialized agents catch blind spots from engineering, strategy, UX, QA, and critical thinking perspectives
+4. **Artifacts land where they belong** — organized in `product-development/` automatically
 
 ## Quick Setup
 
 1. Clone this repo
 2. Open in Claude Code: `claude` from the project root
-3. Run `/setup` — walks you through name, role, team, and shows all available skills (~2 min)
-4. Start working: `/prd`, `/workflow feature`, or ask a question
+3. Run `/setup` — walks you through name, role, team (~2 min)
+4. Start working: `/workflow feature [topic]` or any skill below
 
-> Claude auto-detects first run and suggests `/setup`. You can also edit `pmos.config.yml` directly.
+## Workflows
+
+The fastest way to get work done end-to-end:
+
+- **`/workflow feature [topic]`** — Research -> PRD -> Agent Review -> QA Scenarios -> User Stories
+- **`/workflow release [number]`** — Status -> Release Notes -> Launch -> Demo Script
 
 ## Skills (20)
 
@@ -40,7 +54,7 @@ A lean, Claude Code-powered PM workspace for Agentforce product managers. 20 ski
 ### Review & Track
 | Skill | What it does |
 |-------|-------------|
-| `/multi-agent-review` | Parallel review by multiple agents |
+| `/multi-agent-review` | Parallel review by 5 agents |
 | `/tracker` | Track ideas, bugs, tasks, decisions |
 | `/workflow` | Guided multi-stage workflows |
 | `/setup` | Personalize workspace (first run) |
@@ -57,35 +71,26 @@ A lean, Claude Code-powered PM workspace for Agentforce product managers. 20 ski
 
 Use `/multi-agent-review [doc]` for parallel reviews, or invoke agents individually.
 
-## Workflows (2)
-
-- `/workflow feature [topic]` — Research -> PRD -> Review -> QA -> User Stories
-- `/workflow release [number]` — Status -> Release Notes -> Launch -> Demo Script
-
 ## Directory Structure
 
 ```
 agentforce-pm-os/
-├── CLAUDE.md              # System instructions
-├── pmos.config.yml        # Your profile & product config
-├── .claude/               # Agents, skills, rules, hooks
-├── context/               # Agentforce domain knowledge
-│   ├── TERMINOLOGY.md     # Agent concepts & platform terms
-│   ├── ARCHITECTURE.md    # System architecture
-│   ├── PRODUCT.md         # Product overview & vision
-│   ├── PERSONAS.md        # User personas & job stories
-│   ├── CAPABILITIES.md    # Feature inventory by area
-│   └── COMPETITIVE.md     # Competitive landscape
-├── templates/             # PRD, spec, user-story, demo, weekly-update
-├── docs/                  # Feature documentation by release
-├── memory/                # Session learnings (decisions, preferences, domain knowledge)
-├── tracker/               # Ideas, bugs, tasks, decisions
-└── workflows/             # Guided multi-stage processes
+├── .claude/                   # Engine: agents, skills, rules, hooks
+├── context/                   # Brain: Agentforce domain knowledge
+├── product-development/       # Output: PRDs, specs, stories, plans, analytics
+├── product-strategy-frameworks/  # Reference: Rumelt, DHM, SWOT, Socratic
+├── templates/                 # Formats: PRD, spec, user-story, demo, update
+├── workflows/                 # Pipelines: feature development, release prep
+├── tracker/                   # Log: ideas, bugs, tasks, decisions
+├── team/                      # People: onboarding, norms, retros
+├── memory/                    # Learning: decisions, preferences, domain insights
+├── pmos.config.yml            # Config: your profile & product context
+└── CLAUDE.md                  # Instructions: system behavior
 ```
 
 ## Customizing
 
-- **Your profile**: Edit `pmos.config.yml`
+- **Your profile**: Run `/setup` or edit `pmos.config.yml`
 - **Domain context**: Update files in `context/` as Agentforce evolves
 - **Templates**: Modify `templates/` to match your team's formats
 - **Add skills**: Create new skills in `.claude/skills/[name]/SKILL.md`
